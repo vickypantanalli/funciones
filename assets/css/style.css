@@ -3,6 +3,13 @@ div {
     width: 200px;
 }
 
+.padre {
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    gap: 5px;
+}
+
 #div1 {
     background-color: blue;
 }
