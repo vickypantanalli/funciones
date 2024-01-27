@@ -1,26 +1,25 @@
-let div1 = document.getElementById("div1")
+let div1 = document.getElementById('div1')
 let div2 = document.getElementById("div2")
 let div3 = document.getElementById("div3")
 let div4 = document.getElementById("div4")
 
-let negro = (div1, color= "black") => {
-    div1.style.backgroundColor = color
-}
 
+const negro = (div1, color = 'black') => {
+    div1.style.backgroundColor = color;
+ }
 
-
-
-
-/* const div1 = document.querySelector("#div1")
-div1.addEventListener("click", function(color){
-    div1.style.backgroundColor = "black"
+div1.addEventListener("click",()=>{
+    negro(div1)
 })
 
-/* negro = function(color) {
-    div1.backgroundColor = black
-} */
+div2.addEventListener("click", ()=>{
+    negro(div2)
+})
 
-negro = function(black) {
-    div1.style.backgroundColor = black
+div3.addEventListener("click", ()=>{
+    negro(div3)
+})
 
-} */
+div4.addEventListener("click", ()=>{
+    negro(div4)
+})
